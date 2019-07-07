@@ -1,3 +1,3 @@
 # Script Template Builder
 
-!(https://i.imgur.com/AhzJSn6.png)
+![](https://i.imgur.com/AhzJSn6.png)
