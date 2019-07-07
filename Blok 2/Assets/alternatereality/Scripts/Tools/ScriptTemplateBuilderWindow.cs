@@ -139,7 +139,7 @@ namespace alternatereality
         private void Save()
         {
             string[] files = GetScriptTemplatesFrom(GetDirectory(_saveIndex));
-            int index = 100;
+            int index = 70;
             
             Array.Sort(files); // Sort the array alphabetically because order is not guaranteed
 
@@ -151,7 +151,7 @@ namespace alternatereality
                     break;
             }
 
-            string fileName = (index == -1 ? 99 : index - 1) + "-" + _title + "-New" + (_deriveFromMonobehaviour ? "MonoBehaviour" : "") + "Script.cs.txt";
+            string fileName = (index == -1 ? 69 : index - 1) + "-" + _title + "-New" + (_deriveFromMonobehaviour ? "MonoBehaviour" : "") + "Script.cs.txt";
 
             if (!Directory.Exists(GetDirectory(_saveIndex)))
                 Directory.CreateDirectory(GetDirectory(_saveIndex));
@@ -177,7 +177,7 @@ namespace alternatereality
                     return EditorApplication.applicationContentsPath + "/Resources/ScriptTemplates/";
 
                 case 1:
-                    return Application.dataPath + "/" + _namespace + "/ScriptTemplates/";
+                    return Application.dataPath + "/ScriptTemplates/";
             }
 
             return "";
