@@ -10,10 +10,3 @@ Alex van der Linden
 # Blok 2
 ### Tool
 [Script Customizer](https://github.com/hkulex/KDEV/tree/master/Blok%202)
-
-# Blok 4
-### Multiplayer
-Turn based Flappy Bird spin-off 
-
-### Shader 
-Dissolve shader
